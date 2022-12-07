@@ -3,7 +3,8 @@ body {
 }
 
 .container {
-
+  display: flex;
+  justify-content: center;
 }
 
 .box {
@@ -17,4 +18,12 @@ body {
   width: 100px;
   border: 1px solid #000;
   border-radius: 50%;
+}
+
+.container div:nth-child(1) {
+  background-color: limegreen;
+}
+
+.container div:nth-child(2) {
+  background-color: red;
 }
