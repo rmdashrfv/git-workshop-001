@@ -1,0 +1,9 @@
+// Git workflow
+
+Rule 1: Never work on the main / master branch
+
+Name your branches like this:
+  your-name/feature-you-working-on
+  cleo/signup-form
+
+Do not name branches simply by your name:
